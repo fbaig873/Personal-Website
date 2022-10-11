@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Faraaz Baig Profile</title>
+        <script src="https://kit.fontawesome.com/c65dbd5560.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav id="navbar">
+            <h2 class="logo">FARAAZ BAIG</h2>
+            <div class="navContainer">
+                <ul>
+                    <li class = "front_page active"><a href="#front_page">Home</a></li>
+                    <li class = "about_page"><a href="#about_page">About</a></li>
+                    <li class = "port_page"><a href="#port_page">Portfolio</a></li>
+                    <li class = "contact_page"> <a href="#contact_page">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    
+        <section id="front_page">
+            <video video autoplay muted loop id="backgound-video">
+                <source src="/assets/bg_vid.mp4" type="video/mp4">
+            </video>
+    
+            <div class="title">
+                Faraaz Baig
+                <hr>
+            </div>
+        </section>
+    
+        <section id="about_page">
+            <h2 class="about_title">About me</h2>
+            <div><p>
+                Hi, I'm Faraaz and I am from Gurnee, Illinois which you might know it by having Six Flags Great America.<br>
+                I like playing racing games and I'll always be available to play Volleyball. I also enjoy walking on trail paths and taking nature photos. <br>
+                Feel free to take a look at some recent photos I've taken.
+                </p>
+                <div>
+                    <div id="slideshow">
+                        <div class="Images fade">
+                            <img class="slide_images" src="/assets/image-1.jpg">
+                            <div class="text">Banff, Alberta</div>
+                        </div>
+                        <div class="Images fade">
+                            <img class="slide_images" src="/assets/image-2.jpg">
+                            <div class="text">Banff, Alberta</div>
+                        </div>
+                        <div class="Images fade">
+                            <img class="slide_images" src="/assets/image-3.jpg">
+                            <div class="text">Point Pelee, Ontario</div>
+                        </div>
+                        <div class="Images fade">
+                            <img class="slide_images" src="/assets/image-4.jpg">
+                            <div class="text">Langkawi, Malaysia</div>
+                        </div>
+                        <div class="Images fade">
+                            <img class="slide_images" src="/assets/image-5.jpg">
+                            <div class="text">Singapore</div>
+                        </div>
+                        <a class="prev"  id="prev"><i class="fa-sharp fa-solid fa-arrow-left"></i></a>
+                        <a class="next" id="next"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="port_page">
+            <h2 class="port_title">Portfolio</h2>
+            <div class="port_grid">
+                <article>
+                    <a id="open_experience">
+                        <div class="column_info">
+                            <i class="fa-solid fa-briefcase"><br><br>Experience</i>
+                        </div>
+                    </a>
+                </article>
+                <article>
+                    <a id="open_education">
+                        <div class="column_info">
+                            <i class="fa-solid fa-graduation-cap">
+                                <br><br>Education
+                            </i>
+                        </div>
+                    </a>
+                </article>
+                <article>
+                    <a id="open_projects">
+                        <div class="column_info">
+                            <i class="fa-solid fa-code"><br><br>Projects</i>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </section>
+    
+        <section id="contact_page">
+            <h2 class="contact_title">Contact</h2>
+            <div class="contact_container">
+                <div class="social_item">
+                    <i class="fa-solid fa-location-dot fa-4x"></i>
+                    <div class="contact_action">Where you'll find me</div>
+                    <div>CIFFY</div>	
+                </div>
+                <div class="social_item">
+                    <i class="fa-brands fa-linkedin-in fa-4x"></i>
+                    <div class="contact_action">Connect with me</div>
+                    <div><a href="https://www.linkedin.com/in/faraaz-baig" target="_blank" rel="noopener noreferrer">Linkedin Profile</a></div>
+                </div>
+                <div class="social_item">
+                    <i class="fa-solid fa-envelope fa-4x"></i>
+                    <div class="contact_action">Email me at</div>
+                    <div>fbaig168@outlook.com</div>	
+                </div>
+            </div>
+        </section>
+    
+    <div class="modal_experience" id="modal_experience">
+      <div class="modal">
+        <a id="close_experience"></a>
+        <h1>Experience</h1>
+        <p>I worked as an undergraduate research assistant at University of Illinois at Chicago where I had collect, clean, and model data that would be used towards creating a NLP model. I also created and annotated data that would go towards our NLI library we were building. 
+        </p><br>
+      </div>
+    </div>
+
+    <div class="modal_education" id="modal_education">
+      <div class="modal">
+        <a id="close_education"></a>
+        <h1>Education</h1>
+        <p>I am currently studying Computer Science at the Univeristy of Illinois Urbana-Champaign. <br>
+           Some of the classes that I have taken are Data Structures, Algorithms, and Database Systems.
+        </p><br>
+      </div>
+    </div>
+
+    <div class="modal_projects" id="modal_projects" data-closable>
+      <div class="modal">
+        <a id="close_projects"></a>
+        <h1>Projects</h1>
+        <p>Some of the projects I have done are a discord bot, mobile app, and a video game.</p><br>
+      </div>
+    </div>
+    </body>
+</html>
